@@ -130,7 +130,7 @@ package starling.extensions
         {
             particle.y += passedTime * 250;
             particle.alpha = 1.0 - particle.currentTime / particle.totalTime;
-            particle.scale = 1.0 - particle.alpha; 
+            particle.scale = 1.0 - particle.alpha;
             particle.currentTime += passedTime;
         }
         
