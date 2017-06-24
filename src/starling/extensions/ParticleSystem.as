@@ -84,7 +84,7 @@ package starling.extensions
             mFrameTime = 0.0;
             mEmitterX = mEmitterY = 0;
             mMaxCapacity = Math.min(MAX_NUM_PARTICLES, maxCapacity);
-            mSmoothing = TextureSmoothing.BILINEAR;
+            mSmoothing = TextureSmoothing.TRILINEAR;
             
             mBlendFactorDestination = blendFactorDest || Context3DBlendFactor.ONE_MINUS_SOURCE_ALPHA;
             mBlendFactorSource = blendFactorSource ||
